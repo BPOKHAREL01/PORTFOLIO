@@ -785,11 +785,13 @@ i:hover, i:active {
 
 .fourth-content .item .hover-effect p {
 	font-size: 13px;
-	text-transform: Cap;
+	text-transform:uppercase;
 	letter-spacing: 0.5px;
 	line-height: 22px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+	font-family: "Lobster";
+	color: antiquewhite;
 }
 
 .fifth-content .container-fluid {
@@ -829,6 +831,7 @@ i:hover, i:active {
   height: 40px;
   width: 100%;
   margin-bottom: 25px;
+  font-family: "Lobster";
 }
 
 .fifth-content textarea {
@@ -847,6 +850,7 @@ i:hover, i:active {
   width: 100%;
   max-width: 100%;
   margin-bottom: 25px;
+  font-family: "Lobster";
 }
 
 .fifth-content button {
