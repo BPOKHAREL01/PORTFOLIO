@@ -367,27 +367,38 @@ nav a:hover::before {
 
 
 .first-content {
-	padding: 75px;
+	padding: 100px;
+	text-align: left;
+	padding-top: 13%;
+	/*padding: 75px;
 	text-align: left;
 	padding-top: 5%;
-	padding-bottom: 1%;
+	padding-bottom: 1%; */
 }
 
 .first-content .author-image img {
-	margin-top: 50px;
-	border-radius: 100px;
-	max-width: 800%;
-	max-height: auto;
-	overflow:hidden;
+	margin-top: 15px;
+	border-radius: 30px;
+	max-width: 100%;
+	overflow: hidden;
 	float: left;
-	margin-right: 45px;
-	inline-size: 500px;
-	display:block;
-	max-block-size: auto;
+	margin-right: 35px;
 	
 }
+.first-content h2 {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0.5px;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
 
-.first-content .typewriter h2 {
+/*.first-content .typewriter p {
 	font-size: 6rem;
 	text-transform: uppercase;
 	font-weight: 1000;
@@ -401,9 +412,9 @@ nav a:hover::before {
 	margin-left: 400px;
 	text-decoration-line: none;
 	margin-right: 100px;
-}
+}*/
 
-.first-content h3{
+/*.first-content h3{
     font-family: "Palette Mosaic";
     display:block;
   	overflow:hidden;
@@ -417,12 +428,19 @@ nav a:hover::before {
 	margin-bottom: 0px;
 	margin-right: 45px;
 	
+}*/
+
+.first-content h3 {
+	font-family: "Palette Mosaic";
+	color: #fff;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 2px;
+	line-height: 26px;
+	margin-bottom: 20px;
 }
 
-.first-content h2{
-  width: 100%;
-  font-family: "Rock 3D", monospace;
-}
 
 .wrapper {
   margin-top: 10%;
@@ -430,10 +448,10 @@ nav a:hover::before {
   height: 50%;
 }
 
-.line__1,
+/*.line__1,
 .line__2 {
-  white-space: nowrap; /* keep text in one line */
-  overflow: hidden; /* hide text behind the cursor */
+  white-space: nowrap;  keep text in one line 
+  overflow: hidden; hide text behind the cursor 
   margin: 2rem auto;
   font-family: "Rock 3D", monospace;
   font-size: 2rem;
@@ -441,10 +459,10 @@ nav a:hover::before {
   display:flex;
 }
 
-.line__1 {
+/*.line__1 {
   border-right: 2px transparent peachpuff;
 
-  /* define animation types for text + cursor */
+   define animation types for text + cursor 
   animation: animated-text__1 4s steps(80, end) 1s 1 both,
     animated-cursor__1 900ms steps(80, end) forwards infinite;
   position:sticky;
@@ -454,15 +472,15 @@ nav a:hover::before {
 .line__2 {
   border-right: 2px transparent peachpuff;
 
-  /* define animation types for text + cursor */
+  define animation types for text + cursor
   animation: animated-text__2 8s steps(80, end) 3s 1 both,
     animated-cursor__2 900ms steps(80, end) alternate-reverse infinite;
   -webkit-animation-delay: 5s;
   animation-delay: 5s;
   animation-iteration-count: infinite;
-}
+}*/
 
-@keyframes animated-cursor__1 {
+/*@keyframes animated-cursor__1 {
   from {
     border-right-color: rgba(17, 17, 17, 0.9);
   }
@@ -497,7 +515,7 @@ nav a:hover::before {
     width: 40rem;
   }
 }
-
+*/
 .first-content em {
 	font-style: normal;
 	font-weight: 600;
