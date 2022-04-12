@@ -15,8 +15,8 @@ https://templatemo.com/tm-512-moonlight
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/fontAwesome.css">
         <link rel="stylesheet" href="css/light-box.css">
-        <link rel="stylesheet" href="css/templatemo-main.css">
-
+     <link rel="stylesheet" href="css/templatemo-main.css">
+     
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -60,13 +60,21 @@ https://templatemo.com/tm-512-moonlight
                       <div class="author-image"><img src="img/ModelDarkened.jpg" alt="Author Image"></div>
                   </div>
                   <div class="col-md-9">
-                  <div class="typewriter">
-                    <!--<h2><span class="auto-type"></span></h2>-->
-                    <h2>BIBHASA POKHAREL</h2>
+                  
+                
+                    <h2>
+                          <span
+                           class="txt-rotate"
+                           data-period="2000"
+                           data-rotate='[ "BIBHASA POKHAREL" ]'></span>
+                      </h2>
+                
                     
-                  </div>
+    
+                    
+                
                      
-                      <h3>As a visual storyteller, I transform any concept into unique visual coding language with a little bit of magic and fairy dust. </h3>
+                      <p>As a visual storyteller, I transform any concept into unique visual coding language with a little bit of magic and fairy dust. </p>
                       </div>
               </div>
             </div>
@@ -362,15 +370,10 @@ https://templatemo.com/tm-512-moonlight
     <script src="js/datepicker.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <!--<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-     var typed = new Typed('.auto-type', {
-         strings:["BIBHASA POKHAREL"],
-         typespeed:50,
-         backspeed:50,
-         loop:true
-     })
-    </script>-->
+    
+
+
+
 
     <script type="text/javascript">
     $(document).ready(function() {
@@ -411,5 +414,108 @@ https://templatemo.com/tm-512-moonlight
         };
     }
     </script>
+<script type="text/javascript" language="javascript">
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+
+
+
+
+
+
+/*var i=0,text;
+            text="BIBHASA POKHAREL"
+        
+            function typing() {
+                if (i<text.length){
+                    document.getElementById("text").innerHTML += text.charAt
+                    (i);
+                    i++;
+                    setTimeout(typing,200);
+                    
+        
+                }
+                
+            }
+            
+            typing();*/
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
