@@ -187,20 +187,23 @@ nav {
   	width: 20%;
   	font-weight: 300;
   	font-size: 2.5rem;
+	overflow-y: hidden;
+	overflow-x: hidden;
 }
 
 nav em {
-	margin-left: 5px;
+
 	float:center;
     font-size: 18px;
 	font-weight: 1000;
 	color: black;
 	text-shadow: -1px 0 rgb(246, 246, 246), 1px -1px 0 rgb(246, 246, 246), -1px 1px 0 rgb(246, 246, 246), 1px 1px 0 rgb(255, 218, 185);
+	overflow-y: hidden;
+	overflow-x: hidden;
 }
 
 nav ul li i {
-	width: 25px;
-	padding-left: 20px;
+	width: 30px;
 	size: 2rem;
 }
 
@@ -218,7 +221,7 @@ nav .logo {
 }
 
 nav .logo img {
-	max-width: 100%;
+	max-width: 75%;
 	overflow-y: hidden;
 }
 
@@ -731,6 +734,7 @@ i:hover, i:active {
 .third-content .col-md-6 {
 	margin: 0px;
 	padding: 0px;
+	z-index: 50%;
 }
 
 
@@ -761,6 +765,7 @@ i:hover, i:active {
 .fourth-content .item .thumb {
 	position: relative;
 	align-items:unset;
+	z-index: 50%;
 }
 
 .fourth-content .item .hover-effect {

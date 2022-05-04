@@ -518,6 +518,7 @@ https://templatemo.com/tm-512-moonlight
   
   .fourth-content {
       padding: 5px;
+      z-index: 50%;
   }
   
   .fourth-content .container-fluid {
@@ -541,6 +542,9 @@ https://templatemo.com/tm-512-moonlight
   
   .fourth-content .item .thumb {
       position: relative;
+      grid-template-columns: repeat(2, minmax(2px, 100%));
+      max-width: 80%;
+      z-index: 50%;
   }
   
   .fourth-content .item .hover-effect {
