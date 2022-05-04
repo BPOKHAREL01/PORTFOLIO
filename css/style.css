@@ -332,7 +332,7 @@ https://templatemo.com/tm-512-moonlight
   .first-content .author-image img {
       margin-top: 15px;
       border-radius: 30px;
-      max-width: 100%;
+      max-width: 80%;
       overflow: hidden;
       float: left;
       margin-right: 35px;
@@ -515,10 +515,10 @@ https://templatemo.com/tm-512-moonlight
   }
   
   .third-content p {
-      font-size: 13px;
+      font-size: 15px;
       color: #fff;
       letter-spacing: 0.5px;
-      font-weight: 300;
+      font-weight: 500;
       line-height: 24px;
       margin-bottom: 20px;
   }
@@ -618,8 +618,6 @@ https://templatemo.com/tm-512-moonlight
       padding-bottom: 0px;
       margin-bottom: 0px;
   }
-  
-  
   
   .fifth-content .container-fluid {
       padding-left: 0px;
