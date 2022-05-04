@@ -192,11 +192,13 @@ nav {
 nav em {
 	margin-left: 5px;
 	float: center;
-    font-size: 18px;
+    font-size: 14px;
     height: 10px;
     line-height: 1px;
     padding: 2px;
 	font-weight: 1000;
+	color: black;
+	text-shadow: -1px 0 rgb(246, 246, 246), 1px -1px 0 rgb(246, 246, 246), -1px 1px 0 rgb(246, 246, 246), 1px 1px 0 rgb(255, 218, 185);
 }
 
 nav ul li i {
@@ -346,7 +348,7 @@ nav a:hover::before {
   background-position-y: 30%;
  }
 .slides .slide:nth-child(5) {
-  background-image: url(../img/SmewyDark.jpg);
+  background-image: url(../img/SmileDark.jpg);
   background-size:cover;
   background-position-y: 40%;
   background-repeat:repeat-x;
@@ -441,6 +443,8 @@ nav a:hover::before {
 .first-content h2{
   width: 100%;
   font-family: "Rock 3D", monospace;
+  color:black;
+  text-shadow: -1px -1px 0 rgb(255, 218, 185), 1px -1px 0 rgb(246, 246, 246), -1px 1px 0 rgb(246, 246, 246), 1px 1px 0 rgb(246, 246, 246);
 }
 
 .wrapper {
@@ -595,7 +599,7 @@ nav a:hover::before {
 	font-size: 42px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color:peachpuff;
+	color:black;
 	letter-spacing: 0.5px;
 	border-bottom: 2px solid #fff;
 	display: inline-block;
@@ -603,6 +607,7 @@ nav a:hover::before {
 	margin-bottom: 5px;
 	margin-top: 10px;
 	font-family: "Rock 3D";
+	text-shadow: -1px -1px 0 rgb(255, 218, 185), 1px -1px 0 rgb(255, 218, 185), -1px 1px 0 rgb(255, 218, 185), 1px 1px 0 rgb(255, 218, 185);
 }
 
 .second-content p {
@@ -689,7 +694,8 @@ i:hover, i:active {
 	font-size: 26px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color:peachpuff;
+	color:black;
+	text-shadow: -1px -1px 0 rgb(255, 218, 185), 1px -1px 0 rgb(255, 218, 185), -1px 1px 0 rgb(255, 218, 185), 1px 1px 0 rgb(255, 218, 185);
 	letter-spacing: 0.5px;
 	border-bottom: 2px solid #fff;
 	display: inline-block;
@@ -878,10 +884,11 @@ i:hover, i:active {
     display: inline-block;
 	border: 2px solid #fff;
 	padding: 8px 15px;
-	font-size: 13px;
+	font-size: 25px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #fff;
+	color:black;
+	text-shadow: -1px -1px 0 rgb(255, 218, 185), 1px -1px 0 rgb(255, 218, 185), -1px 1px 0 rgb(255, 218, 185), 1px 1px 0 rgb(255, 218, 185);;
 	text-decoration: none;
 	background-color: transparent;
 	border-radius: 0px;
