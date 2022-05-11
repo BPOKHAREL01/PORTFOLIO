@@ -194,7 +194,7 @@ nav {
 nav em {
 
 	float:center;
-    font-size: 18px;
+    font-size: 12px;
 	font-weight: 1000;
 	color: black;
 	text-shadow: -1px 0 rgb(246, 246, 246), 1px -1px 0 rgb(246, 246, 246), -1px 1px 0 rgb(246, 246, 246), 1px 1px 0 rgb(255, 218, 185);
@@ -205,6 +205,7 @@ nav em {
 nav ul li i {
 	width: 30px;
 	size: 2rem;
+	float: center;
 }
 
 nav ul li a {
@@ -228,7 +229,7 @@ nav .logo img {
 nav ul {
 	margin-top: 20px;
   	text-align: left;
-  	margin-left: 40px;
+  	margin-left: 30px;
   	list-style-type: none;
   	height: 48vh;
   	display: -webkit-box;
@@ -386,7 +387,7 @@ nav a:hover::before {
 	
 }
 .first-content h2 {
-	font-size: 40px;
+	font-size: 35px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #fff;
@@ -433,7 +434,7 @@ nav a:hover::before {
 .first-content p {
 	font-family: "Palette Mosaic";
 	color: #fff;
-	font-size: 2.0rem;
+	font-size: 1.8rem;
 	text-transform: uppercase;
 	font-weight: 300;
 	letter-spacing: 2px;

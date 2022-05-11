@@ -177,7 +177,7 @@ https://templatemo.com/tm-512-moonlight
   nav em {
       font-style: normal;
       margin-left: 5px;
-      font-size: 23px;
+      font-size: 15px;
   }
   
   nav ul li i {
@@ -206,7 +206,7 @@ https://templatemo.com/tm-512-moonlight
         text-align: left;
         margin-left: 40px;
         list-style-type:none;
-        height: 48vh;
+        height: 25vh;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
